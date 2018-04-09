@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="227.0" prefWidth="366.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="117.0" layoutY="14.0" text="Ohjelman tietoja">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="112.0" layoutY="55.0" text="Tekijä: Tuomas Kaappa">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="94.0" text="Ohjelmointi 2 kurssin harjoitustyö">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="127.0" layoutY="180.0" text="versio 0.00000001">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

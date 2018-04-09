@@ -1,0 +1,138 @@
+|------------------------------------------------------------------------|
+| Luokan nimi:   Naytto                              | Avustajat:        |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      | - metsalohkorekis | 
+|                                                    |   teri            | 
+| - Hoitaa kaikken näyttöön tulevan tekstin          | - metsalohkot     | 
+| - Hoitaa kaiken tiedon pyytämisen käyttäjältä      | -lohktoimenpiteet | 
+| - Lukee ja kirjoittaa hoitotoimenpiteet tiedostoon | - hakkuut         |
+|                                                    | -hoitotoimenpiteet|
+|                                                    |                   |  
+|                                                    |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+| Luokan nimi:   Metsalohkorekisteri                 | Avustajat:        |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      | - metsalohkot     | 
+|                                                    | - lohkotoimenpit  | 
+| - Huolehtii metsalohkot, lohkotoimenpiteet, hakk   |   eet             | 
+| uut ja hoitoimenpiteet luokkien välisestä yhteis   | - hakkuut         | 
+| työstä ja välittää näiden tietoja eteenpäin        | - hoitotoimenpit  |
+| -Lukee ja kirjoittaa yllämainittujen tiedostoihin  |   eet             |
+|  pyytämällä apua avustajiltaan.                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+| Luokan nimi:   metsalohkot                         | Avustajat:        |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      | - lohko           | 
+|                                                    |                   | 
+| - Pitää yllä rekisteriä metsälohkoista.            |                   | 
+| - Osaa lisätä ja poistaa metsälohkon               |                   | 
+| - Lukee ja kirjoittaa metsälohkot tiedostoon       |                   |
+| - Osaa etsiä lohkoja ja lajitella ne eri kriteeri  |                   |
+|   en perusteella.                                  |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+| Luokan nimi:    hakkuut                            | Avustajat:        |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      | - hakkuu          | 
+|                                                    |                   | 
+| - Pitää yllä rekisteriä lohkoille tehdyistä        |                   | 
+|   hakkuista                                        |                   | 
+| - Lukee ja kirjoittaa hakkuut tiedostoon           |                   |
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+| Luokan nimi:   lohkotoimenpiteet                   | Avustajat:        |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      | - ltoimenpide     | 
+|                                                    |                   | 
+| - Pitää yllä rekisteriä lohkoille tehdyistä hoito- |                   | 
+| toimenpiteistä.                                    |                   | 
+| - Lukee ja kirjoittaa lohkotoimenpiteet tiedostoon |                   |
+|                                                    |                   |
+|                                                    |                   | 
+|                                                    |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+| Luokan nimi:   hoitotoimenpiteet                   | Avustajat:        |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      | - htoimenpide     | 
+|                                                    |                   | 
+| - Pitää yllä rekisteriä kaikista mahdollisista     |                   | 
+| lohkoille lisättävistä toimenpiteistä              |                   | 
+| - Lukee ja kirjoittaa hoitotoimenpiteet tiedostoon |                   |
+|                                                    |                   |
+|                                                    |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+| Luokan nimi:   lohko                               | Avustajat:        |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      |                   | 
+|                                                    |                   | 
+| - Tietää lohkon kentät (numero, nimi, pinta-ala..) |                   | 
+| - osaa tarkistaa tietyn kentän syntaksin           |                   | 
+| - osaa muuttaa merkkijonon lohkon tiedoiksi        |                   |
+| - osaa antaa merkkijonona kentän tiedot            |                   |
+| - osaa laittaa merkkijonon kenttien tiedoiksi      |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+| Luokan nimi:   hakkuu                              | Avustajat:        |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      |                   | 
+|                                                    |                   | 
+| - Tietää hakkuun kentät (lohkon numero, pvm, kulut)|                   | 
+| - osaa tarkistaa tietyn kentän syntaksin           |                   | 
+| - osaa muuttaa merkkijonon hakkuun tiedoiksi       |                   |
+| - osaa antaa merkkijonona kentän tiedot            |                   |
+| - osaa laittaa merkkijonon kenttien tiedoiksi      |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+| Luokan nimi:   ltoimenpide                         | Avustajat:        |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      |                   | 
+|                                                    |                   | 
+| - Tietää lohkotoimenpiteen kentät                  |                   | 
+|  (lohkon numero, toimenpide id, pvm, kulut         |                   |
+| - osaa tarkistaa tietyn kentän syntaksin           |                   | 
+| - osaa muuttaa merkkijonon lohkon tiedoiksi        |                   |
+| - osaa antaa merkkijonona kentän tiedot            |                   |
+| - osaa laittaa merkkijonon kenttien tiedoiksi      |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
+
+|------------------------------------------------------------------------|
+| Luokan nimi:   htoimenpide                         | Avustajat:        |
+|-------------------------------------------------------------------------
+| Vastuualueet:                                      |                   | 
+|                                                    |                   | 
+| - Tietää hoitotoimenpiteen kentät                  |                   | 
+|  (hoitoimenpiteen id, hoitotoimenpiteen nimi)      |                   |
+| - osaa tarkistaa tietyn kentän syntaksin           |                   | 
+| - osaa muuttaa merkkijonon lohkon tiedoiksi        |                   |
+| - osaa antaa merkkijonona kentän tiedot            |                   |
+| - osaa laittaa merkkijonon kenttien tiedoiksi      |                   | 
+|                                                    |                   | 
+|-------------------------------------------------------------------------
